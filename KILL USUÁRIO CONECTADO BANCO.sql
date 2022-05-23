@@ -1,0 +1,1 @@
+SELECT * FROM master..sysprocesses where dbid=db_id('MEU_BANCO') and blocked > 0
